@@ -164,11 +164,19 @@ if quest == "y" or quest == "Yes" or quest == "yes":
     import random
     print('\033[1m' + f"The accounts  {username} and {username2} share {len(shared_games)} games:" + '\033[0m')
     print(shared_games)
-    print()
-    print("Your random game is: ")
-    print()
-    print('\033[1m' + random.choice(shared_games) + '\033[0m')
-    print()
+    roll = 1
+    while roll == 1:
+        print()
+        print("Your random game is: ")
+        print()
+        print('\033[1m' + random.choice(shared_games) + '\033[0m')
+        print()
+        reroll = input("Would you like to reroll? (y/n): ")
+        if reroll == "y" or reroll == "Yes" or reroll == "yes":
+            roll = 1
+        else:
+            roll = 0
+        print()
     print("Enjoy!")
     print()
     input("Press Enter to Quit")
@@ -180,3 +188,4 @@ else:
     print()
     input("Press Enter to Quit")
     quit()
+
