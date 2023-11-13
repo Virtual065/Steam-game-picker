@@ -5,7 +5,7 @@ import os
 dev_mode = False # Set to True to enable developer mode (just more clutter in the terminal)
 
 
-api_key = "95C5181B69E73049EB8F1170DF9FC617"
+api_key = "Enter your steam api key" #https://steamcommunity.com/dev/apikey
 
 username = input("Enter the first steam username: ")
 
