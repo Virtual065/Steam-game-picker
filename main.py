@@ -26,11 +26,13 @@ if status == 1:
 elif status == 42:
     print(f"Unable to find Steam Account named : {username}")
     print("Please check the spelling and try again.")
-    time.sleep(3)
+    print()
+    input("Press Enter to Quit")
     quit()
 else:
     print("Something went wrong. Please try again later.")
-    time.sleep(3)
+    print()
+    input("Press Enter to Quit")
     quit()
 
 
@@ -56,12 +58,14 @@ if status == 1:
 elif status == 42:
     print(f"Unable to find Steam Account named : {username2}")
     print("Please check the spelling and try again.")
-    time.sleep(3)
+    print()
+    input("Press Enter to Quit")
     quit()
 
 else:
     print("Something went wrong. Please try again later.")
-    time.sleep(3)
+    print()
+    input("Press Enter to Quit")
     quit()
 
 print()
@@ -167,12 +171,12 @@ if quest == "y" or quest == "Yes" or quest == "yes":
     print()
     print("Enjoy!")
     print()
-    time.sleep(3)
+    input("Press Enter to Quit")
     quit()
 
 else:
     print()
     print("Thanks for using the program!")
     print()
-    time.sleep(3)
+    input("Press Enter to Quit")
     quit()
